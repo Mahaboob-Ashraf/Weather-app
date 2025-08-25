@@ -44,7 +44,7 @@ h1 {
 .input-container {
   display: flex;
   gap: 0.75rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0px;
 }
 
 input[type="text"] {
@@ -124,6 +124,10 @@ button:active {
 .hidden {
   opacity: 0;
   pointer-events: none; 
+}
+
+.hide {
+  display: none;
 }
 
 #weather-info.hidden {

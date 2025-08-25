@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(!city) return;
 
         
-        loader.classList.remove('hidden');
+        loader.classList.remove('hide');
         weatherInfo.classList.add('hidden');
         errorMessage.classList.add('hidden');
         try {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             showError();
         } finally {
-            loader.classList.add('hidden');
+            loader.classList.add('hide');
         }
         
         
