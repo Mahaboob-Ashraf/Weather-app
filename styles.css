@@ -44,7 +44,7 @@ h1 {
 .input-container {
   display: flex;
   gap: 0.75rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.4rem;
 }
 
 input[type="text"] {
