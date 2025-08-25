@@ -177,11 +177,11 @@ button:active {
 
   /* Adjust the typography to better fit the small screen */
   #city-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   #temperature {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   #description {
